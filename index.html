@@ -2,63 +2,66 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Sua loja dos sonhos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to my page</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <div class="topo-rosa">
-        <p>Tudo aquilo que você acreditou que não existia</p>
-    </div>
+    <header class="top-bar">
+        <div class="logo">🌺</div>
+        <h1>Tudo aquilo que você acreditou que não existia</h1>
+    </header>
 
-    <nav class="menu-superior">
-        <button class="btn-nav">Home</button>
-        <button class="btn-nav" style="background-color: #ff85c2;">Fashion</button>
-        <button class="btn-nav" style="background-color: #ffb380;">Help</button>
-        <button class="btn-nav" style="background-color: #ff9966;">Sobre</button>
+    <nav class="main-nav">
+        <button class="nav-btn pink">Home</button>
+        <button class="nav-btn light-pink">Fashion</button>
+        <button class="nav-btn orange">Help</button>
+        <button class="nav-btn dark-orange">Sobre</button>
+        <div class="cart-icons">🛒 💳</div>
     </nav>
 
-    <div class="layout">
+    <main class="container">
         <aside class="sidebar">
-            <h1 class="titulo-page">welcome <br> to my <br> page</h1>
-            
-            <div class="botoes-laterais">
-                <button>Barbie itens</button>
-                <button>Monster High Itens</button>
-                <button>Polly Itens</button>
-                <button>Icarly Itens</button>
+            <h2>welcome to my page</h2>
+            <div class="menu-box">
+                <button class="side-btn">Barbie Itens</button>
+                <button class="side-btn">Monster High Itens</button>
+                <button class="side-btn">Polly Itens</button>
+                <button class="side-btn">Icarly Itens</button>
             </div>
         </aside>
 
-        <main class="conteudo-principal">
-            <div class="grid-produtos">
-                <div class="card">
-                    <div class="foto-produto">
-                        <img src="monter.jpg">
-                    </div>
+        <section class="content-area">
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="img-placeholder">⚰️</div>
                     <p>Monster High iCoffin</p>
                 </div>
-                <div class="card">
-                    <div class="foto-produto"></div>
-                    <p>Icarly PeraPhone</p>
+                <div class="product-card">
+                    <div class="img-placeholder">📱</div>
+                    <p>iCarly PearPhone</p>
                 </div>
-                <div class="card">
-                    <div class="foto-produto"></div>
+                <div class="product-card">
+                    <div class="img-placeholder">📟</div>
                     <p>Compowder Três Espiãs Demais</p>
                 </div>
             </div>
 
-            <div class="banner-promocao">
-                <div class="video-placeholder"></div>
-                <div class="texto-promo">
-                    <h2>Oferta especial!!!</h2>
-                    <h3>Metade do preço</h3>
+            <div class="promo-section">
+                <div class="promo-banner">
+                    <div class="butterfly-img">🦋</div>
+                </div>
+                <div class="promo-text">
+                    <h3>Oferta especial!!!</h3>
+                    <h4>Metade do preço</h4>
+                    <div class="illustration">🎧💖</div>
                 </div>
             </div>
-        </main>
-    </div>
+        </section>
+    </main>
 
-    <footer class="rodape">
+    <footer class="footer">
         Contato: +55 59 22869837
     </footer>
 
