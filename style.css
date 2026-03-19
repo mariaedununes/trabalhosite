@@ -1,153 +1,122 @@
+/* Reset básico para tirar espaços estranhos */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Trebuchet MS', sans-serif;
+    font-family: 'Arial', sans-serif;
 }
 
 body {
-    background-color: #fce4ec; /* Rosa de fundo da página */
-    padding: 10px;
+    background-color: #fce4ec; /* Rosa bem clarinho de fundo */
 }
 
-/* Faixa superior */
-.topo-dark-pink {
-    background-color: #bc005d;
+/* Faixa escura do topo */
+.topo-rosa {
+    background-color: #c2185b;
     color: white;
     text-align: center;
-    padding: 12px;
-    border-radius: 10px 10px 0 0;
-    font-size: 1.2rem;
-    font-weight: bold;
+    padding: 15px;
+    font-style: italic;
+    font-size: 20px;
 }
 
-/* Menu com botões coloridos */
+/* Botões do menu de cima */
 .menu-superior {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #fbc2eb; /* Rosa médio */
-    padding: 10px 40px;
+    justify-content: center;
+    gap: 10px;
+    padding: 15px;
 }
 
-.btn-topo {
+.btn-nav {
     border: none;
-    padding: 5px 25px;
+    padding: 8px 25px;
     border-radius: 20px;
     color: white;
-    margin-right: 10px;
+    background-color: #ff66b2;
     cursor: pointer;
-    font-weight: bold;
 }
 
-.pink { background-color: #ff4d94; }
-.light-pink { background-color: #ff85c2; }
-.peach { background-color: #ffb380; }
-.orange { background-color: #ff944d; }
-
-/* Layout Principal */
-.main-container {
+/* Layout dividido */
+.layout {
     display: flex;
-    background-color: #f8bbd0;
-    min-height: 500px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-/* Lado Esquerdo */
 .sidebar {
     width: 30%;
-    padding: 20px;
     text-align: center;
 }
 
-.logo-flor {
-    font-size: 60px;
-    color: #ff66b2;
+.titulo-page {
+    color: #ad1457;
+    margin-bottom: 20px;
+    font-size: 30px;
 }
 
-.welcome-text {
-    color: #880e4f;
-    font-size: 35px;
-    line-height: 0.9;
-    margin-bottom: 30px;
-    text-shadow: 2px 2px white;
-}
-
-.btn-lateral {
+.botoes-laterais button {
     display: block;
-    width: 90%;
+    width: 80%;
     margin: 10px auto;
     padding: 15px;
-    border: 3px double white; /* Bordas duplas igual ao print */
-    border-radius: 20px;
-    background: linear-gradient(to bottom, #ff99cc, #f06292);
-    color: #fff;
-    font-size: 1.1rem;
-    cursor: pointer;
-}
-
-/* Painel Central (O retângulo rosa choque) */
-.painel-conteudo {
-    width: 65%;
-    background-color: #f48fb1;
-    margin: 20px;
+    border: 2px solid #fff;
     border-radius: 15px;
-    padding: 25px;
-    box-shadow: inset 0 0 10px rgba(0,0,0,0.1);
+    background: linear-gradient(#ff99cc, #ff66b2);
+    color: white;
+    font-weight: bold;
 }
 
-.vitrine {
+/* Área dos cards */
+.conteudo-principal {
+    width: 70%;
+    background-color: #f8bbd0;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.grid-produtos {
     display: flex;
     justify-content: space-around;
     margin-bottom: 40px;
 }
 
-.moldura-foto {
+.card {
+    text-align: center;
+    width: 30%;
+}
+
+.foto-produto {
     background-color: white;
-    padding: 10px;
+    height: 150px;
     border-radius: 15px;
-    box-shadow: 6px 6px 0px #ad1457; /* Sombra sólida do design */
     margin-bottom: 10px;
+    box-shadow: 4px 4px 0px #ad1457; /* Sombra sólida estilo retrô */
 }
 
-.moldura-foto img {
-    border-radius: 10px;
-}
-
-.item p {
-    color: #4a148c;
-    font-weight: bold;
-    font-size: 0.9rem;
-}
-
-/* Seção de baixo */
-.secao-oferta {
+/* Parte de baixo da promoção */
+.banner-promocao {
     display: flex;
-    gap: 20px;
     align-items: center;
+    gap: 20px;
 }
 
-.box-video {
+.video-placeholder {
+    width: 300px;
+    height: 180px;
     background-color: #880e4f;
-    padding: 5px;
-    border-radius: 5px;
-    border: 3px solid #ff4081;
+    border: 5px solid #ff4081;
 }
 
 .texto-promo h2 {
-    font-size: 24px;
-    color: #000;
+    font-size: 28px;
 }
 
-.texto-promo h3 {
-    font-size: 20px;
-    color: #333;
-}
-
-/* Rodapé */
-.footer-contato {
-    background-color: #bc005d;
+.rodape {
+    background-color: #c2185b;
     color: white;
     text-align: center;
-    padding: 8px;
-    font-size: 0.9rem;
+    padding: 10px;
+    margin-top: 20px;
 }
