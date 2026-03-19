@@ -1,5 +1,5 @@
-    body {
-    background-color: #fce4ec; /
+body {
+    background-color: #fce4ec;
     font-family: 'Comic Neue', 'Comic Sans MS', cursive;
     margin: 0;
     padding: 0;
@@ -7,13 +7,16 @@
 }
 
 .top-bar {
+    
     background-color: #d81b60;
     color: white;
     display: flex;
     align-items: center;
     padding: 10px 50px;
     font-style: italic;
+    
 }
+
 
 .logo { font-size: 40px; margin-right: 20px; }
 
@@ -35,7 +38,7 @@
 
 .pink { background: #ff4081; }
 .light-pink { background: #f06292; }
-.orange { background: #ffb74d; }
+.orange { background: #ff7b2f; }
 .dark-orange { background: #fb8c00; }
 
 .container {
@@ -130,6 +133,7 @@
     color: black;
 }
 
+/* Rodapé */
 .footer {
     background-color: #c2185b;
     color: white;
