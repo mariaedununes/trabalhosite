@@ -1,15 +1,11 @@
-/* Importando uma fonte fofa (opcional) */
-@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
-
-body {
-    background-color: #fce4ec; /* Rosa claro de fundo */
+    body {
+    background-color: #fce4ec; /
     font-family: 'Comic Neue', 'Comic Sans MS', cursive;
     margin: 0;
     padding: 0;
     color: #4a0072;
 }
 
-/* Faixa Superior */
 .top-bar {
     background-color: #d81b60;
     color: white;
@@ -21,7 +17,6 @@ body {
 
 .logo { font-size: 40px; margin-right: 20px; }
 
-/* Navegação */
 .main-nav {
     display: flex;
     justify-content: center;
@@ -43,7 +38,6 @@ body {
 .orange { background: #ffb74d; }
 .dark-orange { background: #fb8c00; }
 
-/* Layout Principal */
 .container {
     display: flex;
     padding: 20px;
@@ -52,7 +46,6 @@ body {
     margin: auto;
 }
 
-/* Sidebar */
 .sidebar {
     width: 250px;
     text-align: center;
@@ -137,7 +130,6 @@ body {
     color: black;
 }
 
-/* Rodapé */
 .footer {
     background-color: #c2185b;
     color: white;
