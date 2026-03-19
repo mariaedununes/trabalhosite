@@ -1,0 +1,122 @@
+/* Reset básico para tirar espaços estranhos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #fce4ec; /* Rosa bem clarinho de fundo */
+}
+
+/* Faixa escura do topo */
+.topo-rosa {
+    background-color: #c2185b;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-style: italic;
+    font-size: 20px;
+}
+
+/* Botões do menu de cima */
+.menu-superior {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 15px;
+}
+
+.btn-nav {
+    border: none;
+    padding: 8px 25px;
+    border-radius: 20px;
+    color: white;
+    background-color: #ff66b2;
+    cursor: pointer;
+}
+
+/* Layout dividido */
+.layout {
+    display: flex;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.sidebar {
+    width: 30%;
+    text-align: center;
+}
+
+.titulo-page {
+    color: #ad1457;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.botoes-laterais button {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 15px;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    background: linear-gradient(#ff99cc, #ff66b2);
+    color: white;
+    font-weight: bold;
+}
+
+/* Área dos cards */
+.conteudo-principal {
+    width: 70%;
+    background-color: #f8bbd0;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.grid-produtos {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.card {
+    text-align: center;
+    width: 30%;
+}
+
+.foto-produto {
+    background-color: white;
+    height: 150px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    box-shadow: 4px 4px 0px #ad1457; /* Sombra sólida estilo retrô */
+}
+
+/* Parte de baixo da promoção */
+.banner-promocao {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.video-placeholder {
+    width: 300px;
+    height: 180px;
+    background-color: #880e4f;
+    border: 5px solid #ff4081;
+}
+
+.texto-promo h2 {
+    font-size: 28px;
+}
+
+.rodape {
+    background-color: #c2185b;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
