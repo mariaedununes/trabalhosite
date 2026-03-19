@@ -2,60 +2,63 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Página Y2K - Retro</title>
+    <title>Minha Página Y2K</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header class="topo-dark-pink">
+    <div class="topo-rosa">
         <p>Tudo aquilo que você acreditou que não existia</p>
-    </header>
+    </div>
 
     <nav class="menu-superior">
-        <div class="botoes-nav">
-            <button class="btn-topo pink">Home</button>
-            <button class="btn-topo light-pink">fashion</button>
-            <button class="btn-topo peach">help</button>
-            <button class="btn-topo orange">Sobre</button>
-        </div>
-        <div class="icones-canto">
-            <span>🛒</span> <span>💳</span>
-        </div>
+        <button class="btn-nav">Home</button>
+        <button class="btn-nav" style="background-color: #ff85c2;">Fashion</button>
+        <button class="btn-nav" style="background-color: #ffb380;">Help</button>
+        <button class="btn-nav" style="background-color: #ff9966;">Sobre</button>
     </nav>
 
-    <div class="main-container">
+    <div class="layout">
         <aside class="sidebar">
-            <div class="logo-flor">✿</div>
-            <h1 class="welcome-text">welcome <br> to my <br> page</h1>
+            <h1 class="titulo-page">welcome <br> to my <br> page</h1>
             
-            <div class="menu-lateral">
-                <button class="btn-lateral">Barbie itens</button>
-                <button class="btn-lateral">Monster High Itens</button>
-                <button class="btn-lateral">Polly Itens</button>
-                <button class="btn-lateral">Icarly Itens</button>
+            <div class="botoes-laterais">
+                <button>Barbie itens</button>
+                <button>Monster High Itens</button>
+                <button>Polly Itens</button>
+                <button>Icarly Itens</button>
             </div>
         </aside>
 
-        <section class="painel-conteudo">
-            <div class="vitrine">
-                <div class="item">
-                    <div class="moldura-foto"><img src="https://via.placeholder.com/80/7b1fa2/ffffff?text=iCoffin" alt="iCoffin"></div>
+        <main class="conteudo-principal">
+            <div class="grid-produtos">
+                <div class="card">
+                    <div class="foto-produto"></div>
                     <p>Monster High iCoffin</p>
                 </div>
-                <div class="item">
-                    <div class="moldura-foto"><img src="https://via.placeholder.com/80/4a148c/ffffff?text=Pera" alt="PeraPhone"></div>
+                <div class="card">
+                    <div class="foto-produto"></div>
                     <p>Icarly PeraPhone</p>
                 </div>
-                <div class="item">
-                    <div class="moldura-foto"><img src="https://via.placeholder.com/80/f06292/ffffff?text=Toy" alt="Compowder"></div>
+                <div class="card">
+                    <div class="foto-produto"></div>
                     <p>Compowder Três Espiãs Demais</p>
                 </div>
             </div>
 
-            <div class="secao-oferta">
-                <div class="box-video">
-                    <img src="https://via.placeholder.com/250x150/ce93d8/000000?text=Video+Preview" alt="Banner">
-                </div>
+            <div class="banner-promocao">
+                <div class="video-placeholder"></div>
                 <div class="texto-promo">
                     <h2>Oferta especial!!!</h2>
                     <h3>Metade do preço</h3>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <footer class="rodape">
+        Contato: +55 59 22869837
+    </footer>
+
+</body>
+</html>
