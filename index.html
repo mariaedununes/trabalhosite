@@ -2,26 +2,27 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to my page</title>
+    <title>Minha Página Y2K</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
-        <div class="banner-top">Tudo aquilo que você acreditou que não existia</div>
-        <nav class="nav-superior">
-            <button>Home</button>
-            <button>Fashion</button>
-            <button>Help</button>
-            <button>Sobre</button>
-        </nav>
-    </header>
+    <div class="topo-rosa">
+        <p>Tudo aquilo que você acreditou que não existia</p>
+    </div>
 
-    <main class="container-principal">
+    <nav class="menu-superior">
+        <button class="btn-nav">Home</button>
+        <button class="btn-nav" style="background-color: #ff85c2;">Fashion</button>
+        <button class="btn-nav" style="background-color: #ffb380;">Help</button>
+        <button class="btn-nav" style="background-color: #ff9966;">Sobre</button>
+    </nav>
+
+    <div class="layout">
         <aside class="sidebar">
-            <h1>welcome to my page</h1>
-            <div class="menu-lateral">
+            <h1 class="titulo-page">welcome <br> to my <br> page</h1>
+            
+            <div class="botoes-laterais">
                 <button>Barbie itens</button>
                 <button>Monster High Itens</button>
                 <button>Polly Itens</button>
@@ -29,33 +30,33 @@
             </div>
         </aside>
 
-        <section class="conteudo">
-            <div class="produtos">
+        <main class="conteudo-principal">
+            <div class="grid-produtos">
                 <div class="card">
-                    <img src="https://via.placeholder.com/100" alt="iCoffin">
+                    <div class="foto-produto"></div>
                     <p>Monster High iCoffin</p>
                 </div>
                 <div class="card">
-                    <img src="https://via.placeholder.com/100" alt="PeraPhone">
+                    <div class="foto-produto"></div>
                     <p>Icarly PeraPhone</p>
                 </div>
                 <div class="card">
-                    <img src="https://via.placeholder.com/100" alt="Compowder">
+                    <div class="foto-produto"></div>
                     <p>Compowder Três Espiãs Demais</p>
                 </div>
             </div>
 
-            <div class="oferta-especial">
-                <img src="https://via.placeholder.com/300x150" alt="Banner Promo">
-                <div class="texto-oferta">
+            <div class="banner-promocao">
+                <div class="video-placeholder"></div>
+                <div class="texto-promo">
                     <h2>Oferta especial!!!</h2>
-                    <p>Metade do preço</p>
+                    <h3>Metade do preço</h3>
                 </div>
             </div>
-        </section>
-    </main>
+        </main>
+    </div>
 
-    <footer>
+    <footer class="rodape">
         Contato: +55 59 22869837
     </footer>
 
