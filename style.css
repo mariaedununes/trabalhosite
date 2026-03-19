@@ -1,112 +1,119 @@
-/* Configurações Gerais */
-body {
-    background-color: #f5f5f5;
-    font-family: 'Comic Sans MS', cursive, sans-serif; /* Estilo retro */
+* {
     margin: 0;
-    color: #4b0082;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
 }
 
-/* Banner Superior */
-.banner-top {
-    background-color: #d10074;
+body {
+    background-color: #fce4ec;
+}
+
+.topo-rosa {
+    background-color: #c2185b;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 15px;
     font-style: italic;
+    font-size: 20px;
 }
 
-/* Menu de Cima */
-.nav-superior {
+/* Botões do menu de cima */
+.menu-superior {
     display: flex;
     justify-content: center;
-    gap: 15px;
-    padding: 10px;
-    background-color: #ffcce6;
+    gap: 10px;
+    padding: 15px;
 }
 
-.nav-superior button {
-    background-color: #ff66b2;
+.btn-nav {
     border: none;
-    padding: 5px 15px;
-    border-radius: 15px;
+    padding: 8px 25px;
+    border-radius: 20px;
     color: white;
+    background-color: #ff66b2;
     cursor: pointer;
 }
 
-/* Layout Principal */
-.container-principal {
+/* Layout dividido */
+.layout {
     display: flex;
     padding: 20px;
-    background: linear-gradient(to bottom, #ff99cc, #ffffff);
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-/* Sidebar (Esquerda) */
 .sidebar {
-    width: 250px;
+    width: 30%;
     text-align: center;
 }
 
-.sidebar h1 {
-    color: #d10074;
-    font-size: 1.5rem;
+.titulo-page {
+    color: #ad1457;
+    margin-bottom: 20px;
+    font-size: 30px;
 }
 
-.menu-lateral button {
+.botoes-laterais button {
     display: block;
-    width: 100%;
-    margin-bottom: 10px;
+    width: 80%;
+    margin: 10px auto;
     padding: 15px;
-    border: 2px solid white;
-    background-color: rgba(255, 255, 255, 0.5);
-    border-radius: 20px;
-    color: #d10074;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    background: linear-gradient(#ff99cc, #ff66b2);
+    color: white;
     font-weight: bold;
 }
 
-/* Produtos (Direita) */
-.conteudo {
-    flex-grow: 1;
-    padding: 20px;
+/* Área dos cards */
+.conteudo-principal {
+    width: 70%;
+    background-color: #f8bbd0;
+    padding: 30px;
+    border-radius: 10px;
 }
 
-.produtos {
+.grid-produtos {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .card {
-    background: white;
-    padding: 15px;
-    border-radius: 10px;
     text-align: center;
-    box-shadow: 5px 5px 0px #ff66b2;
-    width: 150px;
+    width: 30%;
 }
 
-.card img {
-    max-width: 100%;
+.foto-produto {
+    background-color: white;
+    height: 150px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    box-shadow: 4px 4px 0px #ad1457; /
 }
 
-/* Oferta */
-.oferta-especial {
+.banner-promocao {
     display: flex;
     align-items: center;
     gap: 20px;
 }
 
-.texto-oferta h2 {
-    font-size: 2rem;
-    color: black;
+.video-placeholder {
+    width: 300px;
+    height: 180px;
+    background-color: #880e4f;
+    border: 5px solid #ff4081;
 }
 
-/* Rodapé */
-footer {
-    background-color: #d10074;
+.texto-promo h2 {
+    font-size: 28px;
+}
+
+.rodape {
+    background-color: #c2185b;
     color: white;
     text-align: center;
-    padding: 5px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
 }
